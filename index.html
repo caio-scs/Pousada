@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Serra da Canastra" content="">
+    <meta name="Pousada" content="Serra da Canastra">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+
+
+    <title>Pousada | Sera da Canastra</title>
+
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/templatemo-art-factory.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
+
+            <style>
+            /* Pequenas correções responsivas específicas do template */
+            .header-image { max-width:100%; height:auto; margin-top:0px; margin-right:0; }
+            @media (min-width:992px) {
+                /* Aumenta a imagem no desktop para ocupar mais espaço na coluna */
+                .header-image { margin-top:200px; margin-right:0px; max-width:120%; width:auto; }
+            }
+
+            /* Mapas: por padrão lado a lado (flex), em mobile empilhar e ocupar toda a largura do viewport */
+            .maps { display: flex; gap: 10px; align-items: center; justify-content: center; }
+            .maps iframe { width:100%; max-width:700px; height:320px; border:0; display:block; }
+
+            /* Em desktop queremos os mapas empilhados na coluna (lado esquerdo) ocupando metade da página.
+               Garantimos que .maps seja coluna e definimos altura para cada iframe. */
+            @media (min-width: 992px) {
+                .maps { flex-direction: column; height: 600px; }
+                .maps iframe { height: 300px; width:100%; }
+            }
+
+            /* Em telas pequenas, fazemos o container .maps ocupar 100vw (edge-to-edge)
+                 e empilhamos os iframes em coluna. Usamos margin-left calc para evitar
+                 criar scroll horizontal por causa do padding do container pai. */
+            @media (max-width: 991px) {
+                .maps { flex-direction: column; width:100vw; margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw); padding-left:0; padding-right:0; }
+                .maps iframe { width:100vw; height:260px; }
+            }
+
+            @media (max-width:576px) { .maps iframe { height:220px; } }
+            .owl-carousel img { width:80%; height:auto; display:block; margin:0 auto; }
+            /* Hero reorder: por padrão o texto aparece antes da imagem; em mobile
+               queremos a imagem acima do título */
+            .hero-image-col { display:flex; align-items:center; justify-content:center; }
+            .hero-text-col { display:flex; flex-direction:column; justify-content:center; }
+
+            @media (max-width: 991px) {
+                .hero-image-col { order: -1; margin-bottom: 15px;  }
+                .hero-text-col { order: 0; text-align: center; }
+                .hero-text-col h1 { font-size: 28px !important; line-height: 34px !important; }
+                .hero-text-col p { font-size: 15px !important; }
+            }
+            </style>
+
+        </head>
+    
+    <body>
+    
+    
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    
+    
+    
+    
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        
+                        <a href="#" class="logo">Pousada</a>
+                        
+                        
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#welcome" class="active">Inicio</a></li>
+                            <li class="scroll-to-section"><a href="#about">Informações</a></li>
+                            <li class="scroll-to-section"><a href="#services">Imagens</a></li>
+                            <li class="scroll-to-section"><a href="#frequently-question">Como Chegar</a></li>
+                            
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+
+    
+    <div class="welcome-area" id="welcome">
+
+        
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-5 col-md-6 col-sm-12 col-xs-12 hero-text-col" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1 style="line-height: 1;"><br>SERRA DA <br><strong>CANASTRA</strong></h1>
+                        <p>Este é o melhor lugar para a sua hospedagem. Você terá acesso às mais belas paisagens naturais e às tradicionais refeições mineiras, além, é claro, de poder desfrutar da tranquilidade do campo.</p>
+                        <a href="https://wa.me/5535999722028" class="main-button-slider" style="font-weight: 700;">Consultar disponibilidade de Reserva</a>
+                    </div>
+                    <div style="display: flex;" class="col-lg-7 col-md-6 col-sm-12 col-xs-12 hero-image-col" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <picture>
+                            <source media="(max-width: 991px)" srcset="pousada/15.webp">
+                            <img src="pousada/10.webp" class="rounded img-fluid d-block mx-auto header-image" alt="Imagem da pousada">
+                        </picture>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+    
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="pousada/teste.webp"  class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+                    <div class="left-heading">
+                        <h5>Aqui você encontra:</h5>
+                    </div>
+                    <div class="left-text" >
+                        <p>A hospedagem inclui café da manhã, wifi, quartos com camas casal e solteiro, </p>
+                        <ul style="margin-left: 20px; color: #4a4a4a;">
+                        <li>Wifi gratuito ilimitado</li>
+                        <li>Café da manhã</li>
+                        <li>Quartos com televisão e tv a cabo</li>
+                        <li>Quartos com ar condicionado</li>
+                        <li>Opções de atividades turisticas</li>
+                        <li>Acesso a cachoeiras</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+   
+
+    
+    <section class="section" id="services">
+        <div class="container" >
+            <div class="row">
+                <h1 style="color: white; margin-bottom: 20px; font-size:30px; text-align: center;">Fotos da Pousada</h1>
+                <div class="owl-carousel owl-theme">
+                    <img src="pousada/1.webp" class="img-fluid" alt="">
+                    <img src="pousada/2.webp" class="img-fluid" alt="">
+                    <img src="pousada/3.webp" class="img-fluid" alt="">
+                    <img src="pousada/4.webp" class="img-fluid" alt="">
+                    <img src="pousada/5.webp" class="img-fluid" alt="">
+                    <img src="pousada/6.webp" class="img-fluid" alt="">
+                    <img src="pousada/11.webp" class="img-fluid" alt="">
+                    <img src="pousada/12.webp" class="img-fluid" alt="">
+                    <img src="pousada/13.webp" class="img-fluid" alt="">
+                    <img src="pousada/14.webp" class="img-fluid" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    
+    <section class="section" id="frequently-question">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Como Chegar</h2>
+                    </div>
+                </div>
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="section-heading">
+                        <p>Temos Taxi e Uber para trazer e buscar você e sua família. <br> <br>
+                        <i class="fas fa-map-marker-alt"></i> Rodovia Lmg-856, s/n - Delfinópolis, MG, 37910-000
+                    </p>
+                        <p></p>
+                    </div>
+                    <div id="map" >
+<div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d478612.9039968266!2d-47.0275091341213!3d-20.417359588388997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPousada%20Serra%20da%20Canastra%20Delfin%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1759423710613!5m2!1spt-BR!2sbr" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1759683041984!6m8!1m7!1sEtCETtJIeqAr--GcEMhTiQ!2m2!1d-20.38633777053837!2d-46.85462715349933!3f270.1110231195494!4f-0.8150605362556291!5f0.7820865974627469" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="row">
+                
+            </div>
+        </div>
+    </section>
+    
+
+
+    
+    <section class="section" id="contact-us">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-lg-6 col-md-6 col-sm-12">
+
+                    
+                    </div> 
+                </div>
+                </div>
+
+
+
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <p style="color: white;">
+                        Telefone: (35) 99972-2028 <br>
+Endereço: Rodovia Lmg-856, s/n - Delfinópolis/MG, CEP: 37910-000
+                    </p>
+                
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <ul class="social">
+                        <li><a href="https://www.instagram.com/serradacanastrapousada/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="c" href="https://www.instagram.com/serradacanastrapousada/"><i class="fa fa-instagram"></i></a></li>
+                        <li ><a class="b" href="https://wa.me/5535999722028"><i  class="fa fa-whatsapp"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    
+    
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
