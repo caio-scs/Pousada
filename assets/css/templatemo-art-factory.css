@@ -1361,7 +1361,7 @@ footer {
 }
 
 footer img {
-  width: 150px;
+  width: auto;
   height: auto;
   margin-right: 100px;
   margin-top: -40px;
@@ -1550,4 +1550,5 @@ preloader
     display: block;
     order: 0;
   }
+
 }
